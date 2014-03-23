@@ -1,9 +1,17 @@
 ﻿/**
-* Author: austynmahoney (https://github.com/austynmahoney)
+ *
+ * Remixer 1: Bartłomiej Klinger (https://github.com/baklinger)
+ * Thanks to: austynmahoney (https://github.com/austynmahoney)
+ *
 */
 var selectedExportOptions = {};
 
 var androidExportOptions = [
+    {
+        name: "ldpi",
+        scaleFactor: 75,
+        type: "android"
+    },
     {
         name: "mdpi",
         scaleFactor: 100,
